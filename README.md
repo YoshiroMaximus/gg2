@@ -24,6 +24,3 @@ Welcome to MonkeyGG2, a feature-rich game site created for you! With over 150 ga
 -   Customizable
 -   Proxy
 -   And More...
-
-
-Distributed under the WTFPL License. See [here](https://github.com/MonkeyGG2/monkeygg2.github.io/blob/main/LICENSE) for more details.
