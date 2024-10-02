@@ -11,7 +11,7 @@
 <p align="center" style="opacity: 0.65;">uhh.</p>
 <br>
 
-Welcome to gg2, a feature-rich game site created for you! With over 150 games to choose from, gg2 offers a unique and customizable gaming experience. Whether you're a gamer, a developer, or your average Joe, gg2 provides a seamless and enjoyable gaming environment.
+Welcome to myself, a feature-rich game site created for you! With over 150 games to choose from, me offers a unique and customizable gaming experience. Whether you're a gamer, a developer, or your average Joe, me provides a seamless and enjoyable gaming environment.
 
 > Consider giving us a star! Especially if you forked this repository or you found some other use out of this repository.
 
