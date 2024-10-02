@@ -5,12 +5,10 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/" # location of package.json
+  - package-ecosystem: "npm" # for JavaScript dependencies
+    directory: "/" # location of your package.json file
     schedule:
       interval: "weekly" # check for updates weekly
     commit-message:
-      prefix: "fix" # commit message prefix
-    open-pull-requests-limit: 5 # max open PRs
-
-  # You can add other ecosystems or directories if needed
+      prefix: "fix" # prefix for the commit messages
+    open-pull-requests-limit: 5 # maximum number of open pull requests at a time
