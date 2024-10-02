@@ -1,45 +1,16 @@
-# Dependabot configuration file
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
 updates:
-  # Enable version updates for npm
   - package-ecosystem: "npm"
-    # Look for `package.json` and `lock` files in the `root` directory
-    directory: "/"
-    # Check for updates once a week
+    directory: "/" # location of package.json
     schedule:
-      interval: "weekly"
-    # Specify labels for npm pull requests
-    labels:
-      - "npm"
-      - "dependencies"
-    # Allow up to 10 open pull requests for npm dependencies
-    open-pull-requests-limit: 10
+      interval: "weekly" # check for updates weekly
+    commit-message:
+      prefix: "fix" # commit message prefix
+    open-pull-requests-limit: 5 # max open PRs
 
-  # Enable version updates for Docker
-  - package-ecosystem: "docker"
-    # Look for a `Dockerfile` in the `root` directory
-    directory: "/"
-    # Check for updates once a week
-    schedule:
-      interval: "weekly"
-    # Specify labels for Docker pull requests
-    labels:
-      - "docker"
-      - "dependencies"
-    # Allow up to 5 open pull requests for Docker dependencies
-    open-pull-requests-limit: 5
-
-  # Enable version updates for GitHub Actions
-  - package-ecosystem: "github-actions"
-    # Workflow files stored in the default location of `.github/workflows`
-    directory: "/"
-    # Check for updates once a week
-    schedule:
-      interval: "weekly"
-    # Specify labels for GitHub Actions pull requests
-    labels:
-      - "github-actions"
-      - "dependencies"
-    # Allow up to 5 open pull requests for GitHub Actions dependencies
-    open-pull-requests-limit: 5
+  # You can add other ecosystems or directories if needed
