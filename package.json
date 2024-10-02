@@ -22,7 +22,7 @@
     "jiter": "0.5.0",
     "markdown-it-py": "3.0.0",
     "mdurl": "0.1.2",
-    "openai": "1.42.0",
+    "openai": "4.67.0",
     "pip": "24.2",
     "platformdirs": "4.2.2",
     "pydantic": "2.8.2",
